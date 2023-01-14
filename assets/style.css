@@ -1,11 +1,8 @@
+/* Universal Element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
 }
 /*HeaderStyle,Links & Text*/
 .header {
@@ -37,7 +34,16 @@ body {
     margin-left: 25px;
 }
 
-/* Main Page Style,Text */
+/* Main PageStyle,Text & IMG */
+body {
+    background-color: #d9dcd6;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 .hero {
     height: 800px;
     width: 100%;
@@ -111,7 +117,6 @@ p {
     font-size: 16px;
 }
 
-/* Links style & Direction when Clicked On*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -122,12 +127,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* Lead Generation Style, Text & Footer*/
+
+/* Lead GenerationStyle Text, IMG & Footer*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
