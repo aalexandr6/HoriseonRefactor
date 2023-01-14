@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/*HeaderStyle*/
+/*HeaderStyle,Links & Text*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* Header Main Links,TEXT */
+
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +31,22 @@ body {
 .header div ul {
     list-style-type: none;
 }
-/* Horiseon Logo */
-.header h1 .seo {
-    color: #d9dcd6;
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
-/* Main Page Style */
+
+/* Main Page Style,Text */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,11 +102,6 @@ body {
     font-size: 36px;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -105,14 +111,6 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 /* Links style & Direction when Clicked On*/
 .float-left {
     float: left;
