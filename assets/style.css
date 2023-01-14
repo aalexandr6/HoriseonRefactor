@@ -7,23 +7,19 @@
 body {
     background-color: #d9dcd6;
 }
-/* Main Header */
+/*HeaderStyle*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Header 1 */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Horiseon Logo */
-.header h1 .seo {
-    color: #d9dcd6;
-}
-/* Main Links,TEXT */
+/* Header Main Links,TEXT */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,7 +31,11 @@ body {
 .header div ul {
     list-style-type: none;
 }
-
+/* Horiseon Logo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Main Page Style */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,7 +104,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Main Page Style */
+
 .hero {
     height: 800px;
     width: 100%;
